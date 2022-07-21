@@ -249,7 +249,7 @@
   "variables": {
     "location" : "[resourceGroup().location]",
     "rgname" : "[resourceGroup().name]",
-    "LoadBalancerType" : "layer-7",
+    "LoadBalancerType" : "layer-4",
     "firewallVmCount" : 2,
     "baseUrl" : "https://raw.githubusercontent.com/sabinj211/AzurePaloDeployment/master/",
     "nsgURL" : "[concat(variables('baseUrl'),'/nsg-new.json')]",
